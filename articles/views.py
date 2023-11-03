@@ -37,7 +37,7 @@ def create(request):
     
 
 
-    return render(request, 'create.html', context)
+    return render(request, 'form.html', context)
 
 
 def delete(request, id):
@@ -61,6 +61,6 @@ def update(request, id):
         'form': form,
     }
 
-    return render(request, 'update.html', context)
+    return render(request, 'form.html', context)
 
 
